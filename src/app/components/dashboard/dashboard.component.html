@@ -1,0 +1,4 @@
+<div class="dashboard">
+    <app-users-list [users]="users"></app-users-list>
+    <app-edit-users (addEvent)="addUser($event)" (removeEvent)="removeUser($event)"></app-edit-users>
+</div>

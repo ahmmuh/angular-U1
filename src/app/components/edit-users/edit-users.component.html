@@ -1,0 +1,10 @@
+<main class="contentWraper">
+    <section class="content">
+        <input type="text" placeholder="New user" [(ngModel)]="name" id="name">
+        <div class="form-group">
+            <button class="btn-add" (click)="addUser($event)">Add</button>
+            <button class=" btn-remove" (click)="removeUser($event)">Remove</button>
+        </div>
+    </section>
+
+</main>
